@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <%- include('./components/header')%>
+    <%- include('./components/intro')%>
+
+    <div class="cities">
+        <div class="container container_small">
+            <div class="cities__inner">
+
+                <div class="cities__item">
+                    <div class="cities__title">London</div>
+                    <div class="cities__subtitle">180-182 Regent Street, London, W1B 5BT</div>
+                    <div class="cities__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. 
+                        Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. 
+                        Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.
+                    </div>
+                    <button class="btn btn_cities">view details</button>
+                </div>
+
+                <div class="cities__item">
+                    <div class="cities__title">London</div>
+                    <div class="cities__subtitle">180-182 Regent Street, London, W1B 5BT</div>
+                    <div class="cities__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. 
+                        Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. 
+                        Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.
+                    </div>
+                    <button class="btn btn_cities">view details</button>
+                </div>
+
+                <div class="cities__item">
+                    <div class="cities__title">London</div>
+                    <div class="cities__subtitle">180-182 Regent Street, London, W1B 5BT</div>
+                    <div class="cities__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. 
+                        Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. 
+                        Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.
+                    </div>
+                    <button class="btn btn_cities">view details</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="location">
+
+        <div class="location__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7966.242886546702!2d36.24071262078469!3d50.00847303947163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0dace4da849%3A0xe9556d41438ade40!2z0J_QsNGA0LogItCc0L7Qu9C-0LTQtdC20L3Ri9C5Ig!5e0!3m2!1sru!2sua!4v1637123310223!5m2!1sru!2sua" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="location__info">
+            <div class="cities__title">London</div>
+            <div class="cities__subtitle">180-182 Regent Street, London, W1B 5BT</div>
+            <div class="cities__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. 
+                Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. 
+                Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.
+            </div>
+
+            <div class="location__details">
+                <p><i class="fas fa-map-marker-alt"></i>180-182 Regent Street, London, W1B 5BT</p>
+                <p><i class="fas fa-phone"></i>0123-456-789</p>
+                <p><i class="fas fa-link"></i>www.yourwebsite.com</p>
+                <p><i class="fas fa-envelope"></i>support@yourwebsite.com</p>
+                <p><i class="fas fa-clock"></i>Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm</p>
+            </div>
+
+            <div class="location__btns">
+                <button class="btn_circle"><i class="fab fa-facebook-f"></i></button>
+                <button class="btn_circle"><i class="fab fa-twitter"></i></i></button>
+                <button class="btn_circle"><i class="fab fa-instagram"></i></button>
+                <button class="btn_circle"><i class="fab fa-pinterest-p"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <%- include('./components/footer')%>
+    
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <%- include('./components/header')%>
+    <%- include('./components/intro')%>
+
+    <div class="container">
+        <hr class="line">
+    </div>
+
+    <div>
+        <div class="container">
+            <%- include('./components/sorting')%>
+        </div>
+    </div>
+
+    <div class="ourLookbook">
+        <div class="container container_large">
+            
+            <div class="ourLookbook__row">
+                <div class="ourLookbook__item_small">
+                    <img class="ourLookbook__img" src="img/item-1.png">
+                </div>
+                <div class="ourLookbook__item_small">
+                    <img class="ourLookbook__img" src="img/item-3.png">
+                </div>
+                <div class="ourLookbook__item_medium">
+                    <div class="ourLookbook__title"> <b>Jane’s</b> lookbook </div>
+                    <div class="ourLookbook__subtitle"> get the look for under £200! </div>
+                    <div class="ourLookbook__text"> 
+                        We invited actress Jane Marshall to join us 
+                        for the day and choose her perfect outfit from 
+                        our vast range of womens fashion.
+                    </div>
+                    <button class="btn"> view now </button>
+                </div>
+            </div>
+
+            <div class="ourLookbook__row">
+                <div class="ourLookbook__item_small">
+                    <img class="ourLookbook__img" src="img/item-4.png">
+                </div>
+                <div class="ourLookbook__item_small">
+                    <img class="ourLookbook__img" src="img/item-5.png">
+                </div>
+                <div class="ourLookbook__item_small">
+                    <img class="ourLookbook__img" src="img/item-6.png">
+                </div>
+                <div class="ourLookbook__item_small">
+                    <img class="ourLookbook__img" src="img/item-8.png">
+                </div>
+            </div>
+
+            <div class="ourLookbook__row">
+                <div class="ourLookbook__item_large">
+                    <div class="ourLookbook__title"> <b>win</b> a new look! </div>
+                    <div class="ourLookbook__action">
+                        <div class="ourLookbook__action_title">win</div>
+                        <div class="ourLookbook__action_subtitle">a new look</div>
+                    </div>
+                    <div class="ourLookbook__subtitle"> add looks or items to your lookbook <br> for a chance of winning </div>
+                    <div class="ourLookbook__text"> 
+                        See an item or a complete look you like, click the  button to add it to your 
+                        lookbook and you’ll be automatically entered to our monthly draw where 
+                        one winner gets a £300 gift voucher to spend on our website!  
+                    </div>
+                    <button class="btn"> shop now </button>
+                </div>
+                <div class="ourLookbook__item_small">
+                    <img class="ourLookbook__img" src="img/item-1.png">
+                </div>
+            </div>
+
+        </div>     
+    </div>
+
+    <div class="container">
+        <hr class="line">
+    </div>
+
+    <%- include('./components/lookbook')%>
+    <%- include('./components/footer')%>
+
+</body>
+</html>
